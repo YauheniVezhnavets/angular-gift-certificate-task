@@ -1,0 +1,16 @@
+<div class="tag-body">
+  <table class="table table-bordered table-striped table-hover">
+    <thead class="table">
+    <tr>
+      <th scope="col">Name of Tag</th>
+      <th scope="col">Path to Picture</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let tag of tags">
+      <td>{{ tag.name }}</td>
+      <td>{{ tag.pathToPicture }}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>

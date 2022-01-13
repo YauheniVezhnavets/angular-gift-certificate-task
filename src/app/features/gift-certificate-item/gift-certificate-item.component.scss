@@ -1,0 +1,79 @@
+.continer_for_coupon-info{
+    display: flex;
+    width: 100%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .container_for_image_coupon{
+    display: flex;
+    width: 60%;
+    height: 350px;
+    background-color: white;
+  }
+  
+  .illustration_coupon{
+    width: 100%;
+  }
+  
+  
+  .container_for_coupon_information{
+    flex-flow: column;
+    justify-content: space-between;
+    display: flex;
+    width: 25%;
+    height: 350px;
+    background-color: white;
+    margin-left: 10%;
+  }
+  
+  
+  .container_for_coupon_description{
+    display: flex;
+    width: 60%;
+    height: 150px;
+    margin-top: 3%;
+    flex-direction: column;
+  }
+  
+  .item_detailed_description_header{
+    font-size: 36px;
+    font-style: normal;
+  }
+  
+  .item_detailed_description{
+    font-size: 18px;
+    font-style: normal;
+  }
+  
+  .coupon_information_purchase_details{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .coupon_information_cost{
+    display: flex;
+  }
+  
+  .coupon_information_add_to_checkout{
+    display: flex;
+    font-size: 18px;
+    background-color: white;
+    border-color: white;
+    align-items: center;
+  }
+  
+  
+  .add_to_cart_button{
+    background-color: white;
+    color:blue;
+    border-color: white;
+    font-size: 18px;
+  }
