@@ -1,0 +1,45 @@
+
+
+    <section class="continer_for_coupon-info">
+        <div class="container_for_image_coupon" >
+          <!-- <img id='illustration_coupon' class='illustration_coupon'
+          src='../../static/img/Gift_box.jpg'
+           style='max-width: 1000px' style='max-height: 400px' /> -->
+        </div>
+        <div class="container_for_coupon_information">
+  
+          <div class="coupon_information_small_description">
+            <p id ="item_detailed_description_header_small" class="item_detailed_description_header_small">
+                {{giftCertificate?.name}}
+            </p>
+            <br/>
+            <p id="item_detailed_description_small" class="item_detailed_description_small">
+                {{giftCertificate?.shortDescription}}
+            </p>
+          </div>
+          <div class="coupon_information_purchase_details">
+            <p id="coupon_information_cost" class="coupon_information_cost">
+                {{giftCertificate?.price| currency}}
+            </p>
+  
+            <div class="coupon_information_add_to_checkout">
+              <a id ="add_to_cart_button"  href="" class="add_to_cart_button"> Add to Cart  </a>
+              <span class="material-icons">
+                  local_grocery_store
+              </span>
+            </div>
+  
+          </div>
+        </div>
+        <div class="container_for_coupon_description">
+          <p class="item_detailed_description_header">
+            <!-- Item Detailed Description -->
+          </p>
+          <br/>
+          <p id="item_detailed_description" class="item_detailed_description">
+            {{giftCertificate?.longDescription}}
+          </p>
+  
+        </div>
+      </section>
+ 

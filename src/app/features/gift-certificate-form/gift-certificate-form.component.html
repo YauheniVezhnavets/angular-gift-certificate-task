@@ -1,0 +1,61 @@
+<div class = "container_add_coupon_header">
+    Add New Coupon
+  </div>
+  <section class="container_add_coupon">
+            <div class="container_add_cupon_form">
+
+                  <form action="" method="post" class="container_add_coupon_post" 
+                  [formGroup]="giftCertificateForm" (ngSubmit)="onSubmit()">
+
+                    <div class='add_coupon_form_row'>
+                        <label for='company'>Company</label>
+                        <input class='company'  name='company' type='text' formControlName="company"/>
+                    </div>
+                    <div class='add_coupon_form_row'>
+                        <label for='item_name'>Item Name</label>
+                        <input class='item_name' name='item_name' type='text' formControlName="name"/>
+                    </div>
+                    <div class='add_coupon_big_form_row'>
+                      <div class='add_coupon_small_form_row'>
+                          <label for='category'>Category</label>
+                          <input class='category' name='category' type='text' formControlName="tags"/>
+                      </div>
+                      <div class='add_coupon_small_form_row'>
+                          <label for='duration'>Duration</label>
+                          <input class='duration' name='duration' type='number' formControlName="duration"/>
+                      </div>
+                    </div>
+                    <div class='add_coupon_big_form_row'>
+                        <label for='short_description'>Short description</label>
+                        <input class='short_description' name='short_description' type='textarea' 
+                        formControlName="shortDescription"/>
+                    </div>
+                    <div class='add_coupon_big_form_row'>
+                      <div class='add_coupon_small_form_row'>
+                          <label for='price'>Price</label>
+                          <input class='price' name='price' type='number' formControlName="price"/>
+                      </div>
+                      <div class='add_coupon_small_form_row'>
+                          <label for='images'>Images</label>
+                          <input class='images' name='images' type='text' formControlName="pathToCertificatePicture" />
+                      </div>
+                    </div>
+                    <div class='add_coupon_big_form_row'>
+                        <label for='long_description'>Long description</label>
+                        <input class='long_description' name='long_description' type='textarea' formControlName="longDescription"/>
+                    </div>
+                    <div class='add_coupon_form_row'>
+                    </div>
+                    <div class='coupon_form_row_last'>
+                        <div class="form_row_cancel">
+                            <button type="cancel" class="button_back" routerLink="/certificates">Back</button>
+                        </div>
+                        <div class="form_row_sign_up">
+                          <button type="submit" class="button_save" 
+                           [disabled]="!giftCertificateForm.valid" 
+                          value="Submit">Save</button> 
+                        </div>
+                    </div>
+                   </form>
+                </div>
+       </section>

@@ -1,0 +1,77 @@
+{
+    "_embedded": {
+        "tagDtoList": [
+            {
+                "tagId": 1,
+                "name": "Relax",
+                "pathToPicture": "../../static/img/tag/relax.png",
+                "active": true
+            },
+            {
+                "tagId": 2,
+                "name": "Music",
+                "pathToPicture": "../../static/img/tag/music.png",
+                "active": true
+            },
+            {
+                "tagId": 3,
+                "name": "Movie",
+                "pathToPicture": "../../static/img/tag/movie.png",
+                "active": true
+            },
+            {
+                "tagId": 4,
+                "name": "Shopping",
+                "pathToPicture": "../../static/img/tag/shopping.png",
+                "active": true
+            },
+            {
+                "tagId": 5,
+                "name": "Coffee",
+                "pathToPicture": "../../static/img/tag/coffee.png",
+                "active": true
+            },
+            {
+                "tagId": 6,
+                "name": "Sport",
+                "pathToPicture": "../../static/img/tag/sport.png",
+                "active": true
+            },
+            {
+                "tagId": 7,
+                "name": "beauty",
+                "pathToPicture": "../../static/img/tag/beauty.png",
+                "active": true
+            },
+            {
+                "tagId": 8,
+                "name": "Photo",
+                "pathToPicture": "../../static/img/tag/photo.png",
+                "active": true
+            },
+            {
+                "tagId": 9,
+                "name": "Food",
+                "pathToPicture": "../../static/img/tag/food.png",
+                "active": true
+            },
+            {
+                "tagId": 10,
+                "name": "Spa",
+                "pathToPicture": "../../static/img/tag/spa.png",
+                "active": true
+            }
+        ]
+    },
+    "_links": {
+        "self": {
+            "href": "http://localhost:8080/GiftCertificateSystem-1.0/api/v1/tags?page=0"
+        }
+    },
+    "page": {
+        "size": 10,
+        "totalElements": 10,
+        "totalPages": 1,
+        "number": 0
+    }
+}
